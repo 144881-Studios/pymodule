@@ -6,7 +6,8 @@ Commit some Python modules.
 ### 2.Try to download it and get the download link.
 ### 3.From the branch,create a pull request of the page in pymodule/module/module-name/README.md :
 ```markdown
-# Latest Release
+# module_name
+## Latest Release
 [latest_module_name](download_link)
 -----
 [older_module_name](download_link)
