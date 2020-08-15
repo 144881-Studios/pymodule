@@ -18,3 +18,4 @@ For module name,if it is a Windows version,the module name must be 2~8 letters.
 ## Version tag
 ### Commit of 144881 Studios,the vertion tag allows“v=a.b.c.dec;b<=a+9;”rule.  
 ### Commit of others,can create your rules.
+[Home page](https://144881-studios.github.io/pymodule/module)
