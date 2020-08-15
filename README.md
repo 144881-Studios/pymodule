@@ -1,6 +1,7 @@
 # pymodule
 Commit some Python modules.
 # Module Publishing Guidelines
+For module name,if it is a Windows version,the module name must be 2~8 letters.
 ## How to publish a module
 ### 1.Create a branch and publish Module in releases branch.
 ### 2.Try to download it and get the download link.
