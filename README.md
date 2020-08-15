@@ -23,4 +23,9 @@ by auther_name
 ## Version tag
 ### Commit of 144881 Studios,the vertion tag allows“v=a.b.c.dec;b<=a+9;”rule.  
 ### Commit of others,can create your rules.
-[Home page](https://144881-studios.github.io/pymodule/module)
+## File name
+### A good file name might be 'module_name'+'version_tag'+'python_ver'.
+## Python 2.x versions
+### If you want to publish a release of Python 2.x versions,please add '\(2.x\)' to the branch name.
+#### \(Except this module can be used either Python 2.x and Python 3.x.\)
+[Module home page](https://144881-studios.github.io/pymodule/module)
