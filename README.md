@@ -8,11 +8,12 @@ For module name,if it is a Windows version,the module name must be 2~8 letters.
 ### 3.From the branch,create a pull request of the page in pymodule/module/module-name/README.md :
 ```markdown
 # module_name
+by auther_name
 ## Latest Release
-[latest_module_name](download_link)
+[latest_module_name](download_link)\(publish_time\)
 -----
-[older_module_name](download_link)
-[another_older_module_name](download_link)
+[older_module_name](download_link)\(publish_time\)
+[another_older_module_name](download_link)\(publish_time\)
 ```
 ### 4.Wait for audit.
 ## Version tag
