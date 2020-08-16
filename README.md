@@ -1,5 +1,3 @@
-# pymodule
-Commit some Python modules.
 # Module Publishing Guidelines
 For module name,if it is a Windows version,the module name must be 2~8 letters.
 ## How to publish a module
@@ -28,4 +26,5 @@ by auther_name
 ## Python 2.x versions
 ### If you want to publish a release of Python 2.x versions,please add '\(2.x\)' to the branch name.
 #### \(Except this module can be used either Python 2.x and Python 3.x.\)
-[Module home page](https://144881-studios.github.io/pymodule/module)
+[Module home page](https://144881-studios.github.io/pymodule/module)  
+[Email to us](mailto:cyy144881@icloud.com?subject=PyModule)
