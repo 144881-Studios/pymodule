@@ -2,7 +2,7 @@
 name: feedback
 about: Feedback a question or problem.
 title: Feedback
-labels: question, feedback, problem
+labels: feedback, problem, question
 assignees: ''
 
 ---
