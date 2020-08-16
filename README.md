@@ -10,13 +10,13 @@ For module name,if it is a Windows version,the module name must be 2~8 letters.
 # module_name
 by auther_name
 ## Latest Release
-### [latest_file_name](download_link)\(publish_time\)  
+### version [latest_file_name](download_link)\(publish_time\)  
 [**View all of this release**](github_release_link)
-#### [older_file_name](download_link)\(publish_time\)  
+#### version [older_file_name](download_link)\(publish_time\)  
 [View all of this release](github_release_link)
-[**another_older_file_name**](download_link)\(publish_time\)  
+version [**another_older_file_name**](download_link)\(publish_time\)  
 [View all of this release](github_release_link)
-[**another_older_file_name_else**](download_link)\(publish_time\)  
+version [**another_older_file_name_else**](download_link)\(publish_time\)  
 [View all of this release](github_release_link)
 ```
 ### 5.Wait for audit.
