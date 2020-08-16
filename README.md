@@ -1,9 +1,11 @@
 # Module Publishing Guidelines
 For module name,if it is a Windows version,the module name must be 2~8 letters.
 ## How to publish a module
-### 1.Create a branch and publish Module in releases branch.
-### 2.Try to download it and get the download link.
-### 3.From the branch,create a pull request of the page in pymodule/module/module-name/README.md :
+### 1.Apply for a contributor.
+**Don't have a GitHub account?[Sign in](https://github.com) or [Email to us to publish a module](mailto:cyy144881@icloud.com?subject=PyModule%3a%20module_name)
+### 2.Create a branch and publish Module in releases branch.
+### 3.Try to download it and get the download link.
+### 4.From the branch,create a pull request of the page in pymodule/module/module-name/README.md :
 ```markdown
 # module_name
 by auther_name
@@ -17,7 +19,8 @@ by auther_name
 [**another_older_file_name_else**](download_link)\(publish_time\)  
 [View all of this release](github_release_link)
 ```
-### 4.Wait for audit.
+### 5.Wait for audit.
+### 6.File automatically merged to the master branch,and it will show in the site.
 ## Version tag
 ### Commit of 144881 Studios,the vertion tag allows“v=a.b.c.dec;b<=a+9;”rule.  
 ### Commit of others,can create your rules.
