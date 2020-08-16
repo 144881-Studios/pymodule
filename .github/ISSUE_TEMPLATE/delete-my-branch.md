@@ -2,7 +2,7 @@
 name: Delete my branch
 about: I want to delete my branch and module.
 title: Delete my branch
-labels: question, environment
+labels: environment, question
 assignees: ''
 
 ---
