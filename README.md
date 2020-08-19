@@ -28,6 +28,6 @@ version [**another_older_file_name_else**](download_link)\(publish_time\)
 ### A good file name might be 'module_name'+'version_tag'+'python_ver'.
 ## Python 2.x versions
 ### If you want to publish a release of Python 2.x versions,please add '\(2.x\)' to the branch name.
-#### \(Except this module can be used either Python 2.x and Python 3.x.\)
+#### \(Except this module can be used either in Python 2.x and Python 3.x.\)
 [Module home page](https://144881-studios.github.io/pymodule/module)  
 [Email to us](mailto:cyy144881@icloud.com?subject=PyModule)
