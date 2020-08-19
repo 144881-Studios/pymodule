@@ -14,5 +14,5 @@ version [**another_older_file_name**](download_link)\(publish_time\)
 version [**another_older_file_name_else**](download_link)\(publish_time\)  
 [View all of this release](github_release_link)
 ```
-4.Wait for managers to audit.
-5.File automatically merged to the master branch,and it will show in the site.
+4. Wait for managers to audit.
+5. File automatically merged to the master branch,and it will show in the site.
