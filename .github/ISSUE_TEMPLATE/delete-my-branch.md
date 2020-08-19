@@ -2,7 +2,7 @@
 name: Delete my branch
 about: I want to delete my branch.
 title: 'Delete my branch: branch_name'
-labels: question, environment
+labels: environment, question
 assignees: ''
 
 ---
