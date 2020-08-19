@@ -1,6 +1,7 @@
 1. Create a branch from “_template_” and publish module(s) in releases' branch.
 2. Try to download it and get the download link.
 3. From your branch,create a pull request of the page in pymodule/module/module-name/README.md (there is a template and you don't need create it again):
+3. From the branch,create a pull request of the page in pymodule/module/module-name/README.md :
 ```markdown
 # module_name
 by auther_name
