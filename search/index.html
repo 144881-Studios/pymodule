@@ -36,14 +36,14 @@
       {
         window.open('https://144881-studios.github.io/pymodule/search/?name='+document.getElementById('name').value) ;
       }
-      document.write('<input id="name" type="text" name="name" value="'+getQueryVariable("name")+'"><button type="button" onclick="myFunction()">search</button><p></p>') ;
+      document.write('<input id="name" type="text" name="name" value="'+getQueryVariable("name")+'"><button type="button" onclick="myFunction()">search</button>') ;
       if (document.getElementById('name').value != "")
       {
         for (i = 0 ; i < array.length ; i++)
         {
           if (contain(array[i],getQueryVariable("name")))
           {
-            document.write('<iframe src="https://144881-studios.github.io/pymodule/module/'+array[i]+'" width="800" height="400">'+array[i]+'</iframe>') ;
+            document.write('<p></p><iframe src="https://144881-studios.github.io/pymodule/module/'+array[i]+'" width="800" height="400">'+array[i]+'</iframe>') ;
           }
         }
       }
