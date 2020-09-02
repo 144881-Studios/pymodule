@@ -56,7 +56,7 @@
       {
         for (i = 0 ; i < module.length ; i++)
         {
-          if ((contain(module[i],getQueryVariable("name"))&&getQueryVariable("onName")=="checked")||(contain(author[i],getQueryVariable("name"))&&getQueryVariable("onAuthor")=="checked")||(contain(time[i],getQueryVariable("name"))&&getQueryVariable("onTime")=="checked")||(contain(latest[i],getQueryVariable("name"))&&getQueryVariable("onVer")=="checked"))
+          if ((contain(module[i],getQueryVariable("name"))&&getQueryVariable("onModulename")=="checked")||(contain(author[i],getQueryVariable("name"))&&getQueryVariable("onAuthor")=="checked")||(contain(time[i],getQueryVariable("name"))&&getQueryVariable("onTime")=="checked")||(contain(latest[i],getQueryVariable("name"))&&getQueryVariable("onVer")=="checked"))
           {
             document.write('<h3><a href="https://144881-studios.github.io/pymodule/module/'+module[i]+'">'+module[i]+'</a></h3>') ;
             document.write('<p>'+latest[i]+'('+time[i]+') by '+author[i]+'</p>') ;
