@@ -36,8 +36,7 @@
       {
         window.open('https://144881-studios.github.io/pymodule/search/?name='+document.getElementById('name').value) ;
       }
-      document.write(getQueryVariable("name")) ;
-      document.write('<input id="name" type="text" name="name" value='+getQueryVariable("name")+'><button type="button" onclick="myFunction()">search</button>') ;
+      document.write('<input id="name" type="text" name="name" value="'+getQueryVariable("name")+'"><button type="button" onclick="myFunction()">search</button><p></p>') ;
       if (document.getElementById('name').value != "")
       {
         for (i = 0 ; i < array.length ; i++)
