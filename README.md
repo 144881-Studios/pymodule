@@ -30,4 +30,5 @@ version [**another_older_file_name_else**](download_link)\(publish_time\)
 ### If you want to publish a release of Python 2.x versions,please add '\(2.x\)' to the branch name.
 #### \(Except this module can be used either in Python 2.x and Python 3.x.\)
 [Module home page](https://144881-studios.github.io/pymodule/module)  
+[Search a module](https://144881-studios.github.io/pymodule/search)  
 [Email to us](mailto:cyy144881@icloud.com?subject=PyModule)
