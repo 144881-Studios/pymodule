@@ -40,7 +40,17 @@
         window.open('https://144881-studios.github.io/pymodule/search/?name='+document.getElementById('name').value) ;
       }
       document.write('<input id="name" type="text" name="name" value="'+getQueryVariable("name")+'"><button type="button" onclick="myFunction()">search</button>') ;
-      
+      if (document.getElementById('name').value != "")
+      {
+        for (i = 0 ; i < module.length ; i++)
+        {
+          if (contain(module[i],getQueryVariable("name")))
+          {
+            document.write('<h3><a href="https://144881-studios.github.io/pymodule/module/'+module[i]+'">'+module[i]+'</a></h3>') ;
+            document.write('<p>'+latest[i]+'('+time[i]+') by'+author[i]+'</p>) ;
+          }
+        }
+      }
     </script>
   </body>
 </html>
