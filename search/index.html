@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -5,6 +6,18 @@
   </head>
   <body>
     <script>
+      array = ["strmodle","dictvar","numbmod","geo2d","char","asciiecp"]
+      function contain(owner,cin)
+      {
+        if (owner.indexOf(cin) > -1)
+        {
+          return(true) ;
+        }
+        else
+        {
+          return(false) ;
+        }
+      }
       function getQueryVariable(variable)
       {
         var query = window.location.search.substring(1);
@@ -25,6 +38,16 @@
       }
       document.write(getQueryVariable("name")) ;
       document.write('<input id="name" type="text" name="name" value='+getQueryVariable("name")+'><button type="button" onclick="myFunction()">search</button>') ;
+      if (document.getElementById('name').value != "")
+      {
+        for (i = 0 ; i < array.length ; i++)
+        {
+          if (contain(array[i],getQueryVariable("name")))
+          {
+            document.write('<iframe src="https://144881-studios.github.io/pymodule/module/'+array[i]+'" width="800" height="400">'+array[i]+'</iframe>') ;
+          }
+        }
+      }
     </script>
   </body>
 </html>
