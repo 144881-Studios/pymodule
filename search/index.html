@@ -35,19 +35,31 @@
         }
         return("");
       }
+      function checkcheck(n)
+      {
+        if (document.getElementById(n).checked)
+        {
+          return("checked") ;
+        }
+        else
+        {
+          return("") ;
+        }
+      }
       function myFunction()
       {
-        window.open('https://144881-studios.github.io/pymodule/search/?name='+document.getElementById('name').value) ;
+        window.open('https://144881-studios.github.io/pymodule/search/?name='+document.getElementById('name').value+'&onModulename='+checkcheck('onModulename')+'&onAuthor='+checkcheck('onAuthor')+'&onTime='+checkcheck('onTime')+'&onVer='+checkcheck('onVer')) ;
       }
+      document.write('Search by:<input id="onModulename" type="checkbox" name="type" value="onModulename" '+getQueryVariable("onModulename")+'>Module name <input id="onAuther" type="checkbox" name="type" value="onAuthor" '+getQueryVariable("onAuther")+'>Author <input id="onTime" type="checkbox" name="type" value="onTime" '+getQueryVariable("onTime")+'>Time <input id="onVer" type="checkbox" name="type" value="onVer" '+getQueryVariable("onVer")+'>Latest version<br>') ;
       document.write('<input id="name" type="text" name="name" value="'+getQueryVariable("name")+'"><button type="button" onclick="myFunction()">search</button>') ;
       if (document.getElementById('name').value != "")
       {
         for (i = 0 ; i < module.length ; i++)
         {
-          if (contain(module[i],getQueryVariable("name")))
+          if ((contain(module[i],getQueryVariable("name"))&&getQueryVariable("onName")=="checked")||(contain(author[i],getQueryVariable("name"))&&getQueryVariable("onAuthor")=="checked")||(contain(time[i],getQueryVariable("name"))&&getQueryVariable("onTime")=="checked")||(contain(latest[i],getQueryVariable("name"))&&getQueryVariable("onVer")=="checked"))
           {
             document.write('<h3><a href="https://144881-studios.github.io/pymodule/module/'+module[i]+'">'+module[i]+'</a></h3>') ;
-            document.write('<p>'+latest[i]+'('+time[i]+') by'+author[i]+'</p>') ;
+            document.write('<p>'+latest[i]+'('+time[i]+') by '+author[i]+'</p>') ;
           }
         }
       }
