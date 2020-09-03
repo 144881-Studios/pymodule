@@ -50,6 +50,9 @@
       {
         window.open('https://144881-studios.github.io/pymodule/search/?name='+document.getElementById('name').value+'&onModulename='+checkcheck('onModulename')+'&onAuthor='+checkcheck('onAuthor')+'&onTime='+checkcheck('onTime')+'&onVer='+checkcheck('onVer')) ;
       }
+      document.write('<h1 style="text-align:center;">pymodule</h1>')
+      document.write('<p style="text-align:center;">Commit some Python modules.</p>')
+      document.write('<a href="https://github.com/144881-Studios/pymodule"><p style="text-align:center;padding:25px;border-radius:12px;border:8px solid #C0C0C0;">View on GitHub</p></a>')
       document.write('Search by:<input id="onModulename" type="checkbox" name="type" value="onModulename" '+getQueryVariable("onModulename")+'>Module name <input id="onAuthor" type="checkbox" name="type" value="onAuthor" '+getQueryVariable("onAuthor")+'>Author <input id="onTime" type="checkbox" name="type" value="onTime" '+getQueryVariable("onTime")+'>Time <input id="onVer" type="checkbox" name="type" value="onVer" '+getQueryVariable("onVer")+'>Latest version<br>') ;
       document.write('<input id="name" type="text" name="name" value="'+getQueryVariable("name")+'"><button type="button" onclick="myFunction()">search</button>') ;
       if (document.getElementById('name').value != "")
