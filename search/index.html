@@ -55,13 +55,13 @@
       document.write('<a href="https://github.com/144881-Studios/pymodule" style="text-decoration:none;color:#F0F0F0"><p style="text-align:center;background-color:#278580;width:118px;padding:25px;border-radius:12px;border:5px solid #C0C0C0;">View on GitHub</p></a>')
       document.write('Search by:<input id="onModulename" type="checkbox" name="type" value="onModulename" '+getQueryVariable("onModulename")+'>Module name <input id="onAuthor" type="checkbox" name="type" value="onAuthor" '+getQueryVariable("onAuthor")+'>Author <input id="onTime" type="checkbox" name="type" value="onTime" '+getQueryVariable("onTime")+'>Time <input id="onVer" type="checkbox" name="type" value="onVer" '+getQueryVariable("onVer")+'>Latest version<br>') ;
       document.write('<input id="name" type="text" name="name" value="'+getQueryVariable("name")+'"><button type="button" onclick="myFunction()">search</button>') ;
-      if (document.getElementById('name').value != "")
+      if (document.getElementById('name').value != "" && (document.getElementById('onModulename').checked||document.getElementById('onAuthor').checked||document.getElementById('onTime').checked||document.getElementById('onVer').checked))
       {
         for (i = 0 ; i < module.length ; i++)
         {
           if ((contain(module[i],getQueryVariable("name"))&&getQueryVariable("onModulename")=="checked")||(contain(author[i],getQueryVariable("name"))&&getQueryVariable("onAuthor")=="checked")||(contain(time[i],getQueryVariable("name"))&&getQueryVariable("onTime")=="checked")||(contain(latest[i],getQueryVariable("name"))&&getQueryVariable("onVer")=="checked"))
           {
-            document.write('<h3><a href="https://144881-studios.github.io/pymodule/module/'+module[i]+'">'+module[i]+'</a></h3>') ;
+            document.write('<h3><a href="https://144881-studios.github.io/pymodule/module/'+module[i]+'" style="text-decoration:none;color:#2040E0">'+module[i]+'</a></h3>') ;
             document.write('<p>'+latest[i]+'('+time[i]+') by '+author[i]+'</p>') ;
           }
         }
